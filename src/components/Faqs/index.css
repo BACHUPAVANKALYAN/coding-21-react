@@ -1,0 +1,62 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f8;
+  min-height: 100vh;
+}
+
+.faqs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 17px;
+  padding-right: 17px;
+  width: 87%;
+  max-width: 557px;
+  background-color: white;
+  border-radius: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .faqs-container {
+    padding: 32px;
+    max-width: 1140px;
+    width: 90%;
+  }
+}
+
+.heading {
+  color: #cb8805;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+@media screen and(min-width:768px) {
+  .heading {
+    font-size: 65px;
+  }
+}
+
+.faqs-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+}
+
+@media screen and(min-width:768px) {
+  .faqs-list {
+    width: 90%;
+  }
+}
+
+@media screen and(min-width:1200px) {
+  .faqs-list {
+    width: 80%;
+  }
+}
